@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+<body>
+  <div class="proffesion">
+    <img src="depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" class="prof-pic">
+    <h1>Shlok Ranjan</h1>
+    <p>
+      | A full stack Developer |
+    </p>
+    <button id="learnMore">Learn More</button>
+    <div class="social-icons">
+      <a href="#" target="_blank"><i class="fab fa-github"></i></a> 
+    </div>
+  </div>
+  <div class="folio">
+    <div class="card" id="card1">
+      <h2>Full Stack Developer</h2>
+      <p style="margin-top: 100px; font-size: larger;">Full stack development of websites using MERN Stack, MEAN Stack  and Django Framework</p>
+      <button>Link to My Projects</button> 
+    </div>
+    <div class="card" id="card2">
+      <h2>Graphic Designer</h2>
+      <p style="margin-top: 100px; font-size: larger;">A photographer and a graphic designer experienced in using Adobe Creative Softwares </p>    
+      <button>Link to My Projects</button>   
+    </div>
+    <div class="card" id="card3">
+      <h2>Video Editor</h2>
+      <p style="margin-top: 100px; font-size: larger;">Video editing using adoble primere pro and several other softwares such as blender</p>    
+      <button>Link to My Projects</button>  
+    </div>
+  </div>
+
+<script>
+  const learn=document.getElementById('learnMore');
+  const card1=document.getElementById('card1');
+  const card2=document.getElementById('card2');
+  const card3=document.getElementById('card3')
+
+  learn.addEventListener("click", function(){
+    card1.style.display='flex'
+    card2.style.display='flex'
+    card3.style.display='flex'
+
+    
+});
+</script>
+</body>
+</html>
